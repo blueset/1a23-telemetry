@@ -1,0 +1,6 @@
+requests
+sentry-sdk==0.6.9
+logdna
+logzio-python-handler
+typing
+typing_extensions
