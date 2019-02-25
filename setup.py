@@ -21,6 +21,7 @@ setup(
     license='AGPLv3+',
     python_requires='>=3.6',
     include_package_data=True,
+    zip_safe=False,
     keywords=['1A23 Studio', 'Telemetry'],
     classifiers=[
         "License :: OSI Approved :: MIT License",
