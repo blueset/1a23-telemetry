@@ -38,7 +38,7 @@ class SentryErrorReporting(TelemetryProvider):
         token = options.pop('token')
         integrations = []
         if not options.get('capture_logs'):
-            integrations.append(LoggingIntegration(level=logging.ERROR))
+            integrations.append(LoggingIntegration(level=logging.debug, event_level=logging.ERROR))
         if 'capture_logs' in options:
             del options['capture_logs']
         if 'ignored_loggers' in options:

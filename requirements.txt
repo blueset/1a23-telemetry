@@ -1,5 +1,5 @@
 requests
-sentry-sdk==0.6.9
+sentry-sdk
 logdna
 logzio-python-handler
 typing
