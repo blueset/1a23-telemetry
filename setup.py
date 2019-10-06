@@ -33,7 +33,7 @@ setup(
     ],
     install_requires=[
         "requests",
-        "sentry_sdk==0.6.9",
+        "sentry_sdk",
         "logzio-python-handler",
         "logdna",
         "typing",
